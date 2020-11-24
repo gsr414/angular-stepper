@@ -32,6 +32,9 @@ export class AppComponent implements OnInit  {
 }
 
 
+
+
+
    <table class="table table-striped table-bordered table-sm row-border hover" datatable [dtOptions]="dtOptions">
                       <thead>
                         <tr>
@@ -48,6 +51,13 @@ export class AppComponent implements OnInit  {
                          </tr>
                       </tbody>
                     </table>
+
+
+npm install datatables.net --save
+npm install datatables.net-dt --save
+npm install angular-datatables --save
+npm install @types/jquery --save-dev
+npm install @types/datatables.net --save-dev
 
 
  "styles": [
